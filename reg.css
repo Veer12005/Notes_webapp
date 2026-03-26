@@ -1,0 +1,97 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.Register-box{
+    position:relative;
+    width:400px;
+    height:420px;
+    background:transparent;
+    border:2px solid rgb(212, 222, 223);
+    border-radius:20px;
+    backdrop-filter: blur(15px);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.Register-box h2{
+    font-size:2em;
+    color:white;
+    text-align:center;
+}
+
+
+.input-box{
+    position:relative;
+    width:310px;
+    margin:30px 0;
+    border-bottom:2px solid white;
+}
+
+
+.input-box input{
+    width:100%;
+    height:50px;
+    background:transparent;
+    border:none;
+    outline:none;
+    font-size:1em;
+    color:white;
+}
+
+
+.input-box label{
+    position:absolute;
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color:white;
+    pointer-events:none;
+    transition:0.5s;
+}
+
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top:-5px;
+}
+
+
+button{
+    width:100%;
+    height:40px;
+    border-radius:40px;
+    border:none;
+    cursor:pointer;
+    font-size:1em;
+    font-weight:600;
+}
+
+p{
+color: aliceblue;
+}
+
+
+.login-reg{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.login-reg p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-reg p a:hover{
+    text-decoration: underline;
+}
